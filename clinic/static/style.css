@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+p {
+    color: #666;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+#menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    border-top-left-radius: 30px;
+
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #555;
+}
+
+#menu ul li:last-child {
+    border-bottom: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#content {
+    margin-right: 200px;
+    padding: 20px;
+}
+
+/* .navBar :hover {
+    -webkit-box-shadow: -42px 58px 56px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: -42px 58px 56px 0px rgba(0, 0, 0, 0);
+    box-shadow: -42px 58px 56px 0px rgba(0, 0, 0, 0);
+} */
+
+.navBarInfo :hover::after {
+    content: "Informações minha";
+    position: absolute;
+    background-color: #000000;
+    border-radius: 9px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.imgVet {
+    text-align: center;
+}

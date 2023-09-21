@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{% static '/style.css' %}" />
+    <title>Veterinários</title>
+  </head>
+  <body>
+    <nav class="navBar">
+      <ul style="list-style: none; padding: 0;">
+        <li style="display: inline; margin-right: 20px;">
+          <a href="/">Início</a>
+        </li>
+        <li style="display: inline; margin-right: 20px;">
+          <a href="/veterinario">Veterinários</a>
+        </li>
+        <li style="display: inline; margin-right: 20px;">
+          <a href="/contato">Contato</a>
+        </li>
+        <li style="display: inline; margin-right: 20px;">
+          <a href="/info">Aluno</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="imgVet">
+      <h1>Veterinários</h1>
+      <ul>
+        <li>Anday: Geral/Anestesista</li>
+        <li>Erley: Cirúrgica</li>
+        <li>Orirn: Clínica</li>
+      </ul>
+      <img src="{% static '/images/R.jpeg' %}" alt="image" width="500" height="400" />
+      <p>Oferecemos uma variedade de serviços para atender às necessidades de nossos clientes. Entre em contato conosco para obter mais informações.</p>
+    </div>
+  </body>
+</html>
